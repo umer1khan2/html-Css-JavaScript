@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Document</title>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+
+    <!-- container , fluid , row , column , responsive -->
+    <section>
+
+                 
+        <div class="content">
+
+        
+            <div class="container py-4 ">
+
+                <h1>container</h1>
+
+                <div class="row gy-3">
+
+                    <div class=" col-sm-12 col-md-6 col-lg-3" >Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+
+                    <div class=" col-sm-12 col-md-6 col-lg-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+
+                    <div class=" col-sm-12 col-md-6 col-lg-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+
+                    <div class=" col-sm-12 col-md-6 col-lg-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+
+                </div>
+            </div>
+
+
+
+
+            <div class="container-fluid">
+
+                <h1>container-fluid</h1>
+
+                <div class="row">
+
+                    <div class="col-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, natus!</div>
+
+                    <div class="col-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, natus!</div>
+
+                    <div class="col-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, natus!</div>
+
+                    <div class="col-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, natus!</div>
+
+                </div>
+
+            </div>
+            
+        </div>
+        
+        
+
+    </section>
+
+    <!-- alerts , badge , button -->
+    <section>
+         
+        <div class="alerts">
+
+            <div class="alert alert-primary" role="alert">Lorem ipsum dolor sit.</div>
+            <div class="alert alert-secondary" role="alert">Lorem ipsum dolor sit.</div>
+            <div class="alert alert-success" role="alert">Lorem ipsum dolor sit.</div>
+            <div class="alert alert-danger" role="alert">Lorem ipsum dolor sit.</div>
+            <div class="alert alert-warning" role="alert">Lorem ipsum dolor sit.</div>
+            <div class="alert alert-info" role="alert">Lorem ipsum dolor sit.</div>
+            <div class="alert alert-light" role="alert">Lorem ipsum dolor sit.</div>
+            <div class="alert alert-dark" role="alert">Lorem ipsum dolor sit.</div>
+
+        </div>
+
+        <div class="badges">
+            <div>abc <span class="badge bg-primary">d</span></div>
+            <div>abc <span class="badge bg-secondary">d</span></div>
+            <div>abc <span class="badge bg-success">d</span></div>
+            <div>abc <span class="badge bg-danger">d</span></div>
+            <div>abc <span class="badge bg-warning">d</span></div>
+            <div>abc <span class="badge bg-info">d</span></div>
+            <div>abc <span class="badge bg-dark">d</span></div>
+            <div>abc <span class="badge bg-light">d</span></div>
+        </div>
+
+        
+        A generic close button for dismissing content like alerts
+
+        <button type="button" aria-label="close" class="btn-class" >close</button>
+        
+        <div class="buttons" >
+            <button type="button" class="btn btn-primary" >primary</button>
+            <button type="button" class="btn btn-secondary" >secondary</button>
+            <button type="button" class="btn btn-success" >success</button>
+            <button type="button" class="btn btn-danger" >danger</button>
+            <button type="button" class="btn btn-warning" >warning</button>
+            <button type="button" class="btn btn-info" >info</button>
+            <button type="button" class="btn btn-dark" >dark</button>
+            <button type="button" class="btn btn-light" >light</button>
+        </div>
+
+
+        
+
+    </section>
+
+
+    <section>
+         
+        <div class="container">
+
+            <div class="row">
+
+                <div class="card col-6 ">
+
+                    <img class="card-img-top" src="three.jpg" alt="image">
+
+                    <div class="card-body">
+                        <h1 class="card title">one</h1>
+                        <p class="card-text">it is a number</p>
+                    </div>
+                </div>
+
+                <div  class="card col-6" >
+
+                    <img class="card-img-top" src="three.jpg" alt="image">
+
+                    <div class="card-body">
+                        <h1 class="card title">one</h1>
+                        <p class="card-text">it is a number</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div> 
+
+    </section>
+
+
+
+    <!-- carousel -->
+    <section>
+
+        <!-- with control -->
+        
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner bg-dark">
+                <div class="carousel-item active">
+                    <img class="d-block w-50" src="one.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-50" src="two.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-50" src="three.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div> 
+
+
+    </section>
+
+    <section>
+        
+        <div>
+            <p>
+                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    show/hide
+                </a>
+            </p>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                    Nihil
+                    anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                </div>
+            </div>
+
+        </div>
+
+
+        <div>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown button
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </div>
+        </div> 
+
+
+    </section>
+
+    <!-- navbar -->
+
+     <section>
+        <div>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div> 
+    </section>
+
+    <section>
+
+        <!-- pagination -->
+         
+        <div>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+            </nav>
+        </div> 
+
+    </section>
+
+    <section>
+
+        <!-- progress bar -->
+         
+        <div>
+            <div class="progress mb-2" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0"
+                aria-valuemax="100">
+                <div class="progress-bar" style="width: 0%"></div>
+            </div>
+            <div class="progress mb-2" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="100">
+                <div class="progress-bar" style="width: 25%"></div>
+            </div>
+            <div class="progress mb-2" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0"
+                aria-valuemax="100">
+                <div class="progress-bar" style="width: 50%"></div>
+            </div>
+            <div class="progress mb-2" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0"
+                aria-valuemax="100">
+                <div class="progress-bar" style="width: 75%">75%</div>
+            </div>
+            <div class="progress mb-2" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100">
+                <div class="progress-bar" style="width: 100%"></div>
+            </div>
+        </div> 
+
+    </section>
+
+    <section>
+
+        <!-- spinner/loading state -->
+         
+        <div>
+            <div class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div> 
+    </section>
+
+    <section>
+        <!-- toast -->
+ 
+        <div>
+            <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <img src="..." class="rounded me-2" alt="...">
+                    <strong class="me-auto">Bootstrap</strong>
+                    <small>11 mins ago</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    Hello, world! This is a toast message.
+                </div>
+            </div>
+        </div> 
+
+    </section>
+
+    <script>
+        const toast = new bootstrap.Toast(document.querySelector('.toast'));
+        toast.show();
+    </script> 
+
+</body>
+
+</html>

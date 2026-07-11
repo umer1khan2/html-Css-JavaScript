@@ -1,0 +1,19 @@
+h3{color:green;
+font-family:arial;
+font-style:italic
+}
+
+p{color:aqua;
+text-align:center;
+text-decoration:underline;
+text-transform:capitalized;
+letter-spacing:3px;
+}
+
+
+table{
+    background-color:black;
+color:white;
+text-align:center;
+
+}

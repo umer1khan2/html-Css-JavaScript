@@ -1,0 +1,186 @@
+body {
+  background-color: white;
+}
+
+.top-logo img {
+  margin-left: 70px;
+}
+
+.top-right div,
+button {
+  margin-left: 100px;
+}
+
+
+.btn-custom {
+  background: transparent;
+  border: 1px solid #000;
+  width: 180px;
+  height: 50px;
+  color: #000;
+  transition: 0.3s ease;
+  border-radius: 20px;
+}
+
+
+.btn-custom:hover {
+  background: red;
+  border-color: red;
+  color: white;
+}
+
+.searchbar {
+  border-radius: 20px;
+  width: 150px;
+  word-spacing: 25px;
+  padding-left: 10px;
+  transition-property: width;
+
+}
+
+.searchbar:hover {
+  width: 152px;
+}
+
+.navigation nav {
+  padding-left: 300px;
+  font-size: large;
+  font-weight: 600;
+}
+
+.service-dropdown:hover {
+  color: red;
+}
+
+.top-text {
+  line-height: 55px;
+  padding-top: 120px;
+  padding-left: 120px;
+  height: 72vh;
+}
+
+.detail {
+  box-sizing: border-box;
+  display: flex;
+  padding: 90px;
+}
+
+.office-images {
+  padding-top: 30px;
+  gap: 40px;
+}
+
+.service-header {
+  text-align: center;
+}
+
+.service-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.service-line div {
+  width: 20px;
+  background-color: rgb(190, 188, 188);
+  height: 3px;
+}
+
+.our-service {
+  box-sizing: border-box;
+  display: flex;
+  padding-left: 40px;
+  padding-right: 40px;
+  gap: 50px;
+}
+
+.service-left {
+  width: 30%;
+}
+
+.service-right {
+  width: 30%;
+}
+
+.service-image {
+  width: 30%;
+  height: 350px;
+  border-radius: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.message {
+  margin-top: 30px;
+  height: 550px;
+  background-image: url(license2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  padding-left: 40px;
+  color: white;
+}
+
+
+.message-lines {
+  display: flex;
+  column-gap: 5px;
+}
+
+.message-lines div {
+  width: 20px;
+  background-color: white;
+  height: 3px;
+}
+
+.message-para {
+  width: 50%;
+  padding-top: 100px;
+}
+
+.download {
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+.download-lines {
+  display: flex;
+  column-gap: 4px;
+}
+
+.download-lines div {
+  background-color: #000;
+  height: 3px;
+  width: 20px;
+}
+
+.download img{
+  padding-top: 50px;
+}
+
+.footer{
+  margin-top: 20px;
+  /* background-color: #000;
+  color: white; */
+  box-sizing: border-box;
+  display: flex;
+  padding-top: 100px;
+  padding-left: 40px;
+}
+
+.footer-left {
+  width: 65%;
+  padding-right: 20PX;
+}
+
+.footer-left-para {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.footer-right {
+  width: 25%;
+}
