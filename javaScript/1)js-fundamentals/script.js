@@ -92,8 +92,9 @@ let users = [
 ]
 
 users.sort((a, b) => a.age - b.age)
-users.sort((a, b) => b.age - a.age)
+console.log(users);
 
+users.sort((a, b) => b.age - a.age)
 console.log(users);
 
 let reverseArray = ["a", "b", "c", "d", "e", "f", "g", "h"]
