@@ -4,9 +4,9 @@
 
 function Student (name , id , age , city){
     this.name = name ;
-    this.id =id;
-    this.age =age;
-    this.city =city;
+    this.id = id;
+    this.age = age;
+    this.city = city;
 }
 
 const st1 = new Student("umer", 1 , 22 , "karachi")
@@ -117,3 +117,73 @@ a2.deposit(42)
 a2.deposit(11)
 a2.withdraw(596)
 a2.getBalance()
+
+
+// POLYMORPHISM
+// Polymorphism means same method name having different behaviors for different objects. In JavaScript, it is commonly achieved through method overriding.
+
+class Car {
+    constructor(name) {
+        this.name = name
+    }
+
+    start() {
+        console.log(`${this.name} car engine started `);
+
+    }
+}
+
+class Bike extends Car {
+
+
+    start(){
+        console.log(`${this.name} bike engine started`);       
+    }
+
+}
+
+const car = new Car("Toyota")
+const bike = new Bike("Honda")
+
+// ABSTRACTION
+// Abstraction is similar to encapsulation, but the main difference is that abstraction is used to hide complexity, while encapsulation is used to hide data by making variables private so that they cannot be accessed directly.
+
+class CoffeeMachine {
+
+    makeCoffee(){
+        this.#addWater();    
+        this.#boilWater();
+        this.#addCoffee();
+        this.#addMilk();    
+        this.#addSugar(); 
+        
+        console.log("coffee is ready");
+        
+    }
+
+    #addWater(){
+        console.log("water added");
+        
+    }
+
+    #boilWater(){
+        console.log("water is boiling");
+    }
+
+    #addCoffee(){
+        console.log("coffee added");
+    }
+
+    #addMilk(){
+        console.log("milk added");
+    }
+
+    #addSugar(){
+        console.log("sugar added");
+        
+    }
+}
+
+const coffee = new CoffeeMachine()
+coffee.makeCoffee()
+
